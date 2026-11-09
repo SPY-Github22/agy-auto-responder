@@ -1,0 +1,27 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=AGY Auto-Responder
+GenericName=Antigravity CLI Auto-Approver
+Comment=Click to toggle automatic approval for background agy sessions
+Exec=agy-toggle-auto-responder toggle
+Icon=dialog-ok-apply
+Terminal=false
+Categories=Utility;Development;
+StartupNotify=false
+Actions=Start;Stop;ViewLogs;
+
+[Desktop Action Start]
+Name=Turn ON Auto-Responder
+Exec=agy-toggle-auto-responder start
+Icon=media-playback-start
+
+[Desktop Action Stop]
+Name=Turn OFF Auto-Responder
+Exec=agy-toggle-auto-responder stop
+Icon=media-playback-stop
+
+[Desktop Action ViewLogs]
+Name=View Logs
+Exec=agy-toggle-auto-responder logs
+Icon=utilities-terminal
